@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cnz-we-JWG">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="First" id="BYZ-38-t0r" customClass="FirstViewController" customModule="LifeCycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="odu-0D-2g7">
+                                <rect key="frame" x="20" y="64" width="374" height="448"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstViewController" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDc-AI-67K">
+                                <rect key="frame" x="85.666666666666671" y="542" width="242.66666666666663" height="36"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="odu-0D-2g7" secondAttribute="trailing" constant="20" id="2Zi-1B-h3d"/>
+                            <constraint firstItem="IDc-AI-67K" firstAttribute="top" secondItem="odu-0D-2g7" secondAttribute="bottom" constant="30" id="Cdh-rE-VCK"/>
+                            <constraint firstItem="odu-0D-2g7" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1/2" id="DKh-iD-vdi"/>
+                            <constraint firstItem="IDc-AI-67K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fr6-Jf-RU8"/>
+                            <constraint firstItem="IDc-AI-67K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hpe-nz-jQ6"/>
+                            <constraint firstItem="odu-0D-2g7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Xde-sD-3Gx"/>
+                            <constraint firstItem="odu-0D-2g7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="icn-4v-Mlv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="1" id="s2R-U5-p1v"/>
+                    <connections>
+                        <outlet property="greenLabel" destination="odu-0D-2g7" id="Ryi-ee-deT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-630.43478260869574" y="-28.125"/>
+        </scene>
+        <!--Third-->
+        <scene sceneID="uAF-Rh-peP">
+            <objects>
+                <viewController title="Third" id="U0S-6Y-qzi" customClass="ThirdViewController" customModule="LifeCycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XNy-Fc-a6s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Pf-gZ-YSi">
+                                <rect key="frame" x="20" y="64" width="374" height="448"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ThirdViewController" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YlP-Hs-fDA">
+                                <rect key="frame" x="80.666666666666686" y="542" width="253" height="36"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.19607843137254902" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YAQ-Di-PSn" firstAttribute="trailing" secondItem="7Pf-gZ-YSi" secondAttribute="trailing" constant="20" id="22q-7C-x8M"/>
+                            <constraint firstItem="7Pf-gZ-YSi" firstAttribute="leading" secondItem="YAQ-Di-PSn" secondAttribute="leading" constant="20" id="Bzh-e0-ceB"/>
+                            <constraint firstItem="YlP-Hs-fDA" firstAttribute="top" secondItem="7Pf-gZ-YSi" secondAttribute="bottom" constant="30" id="DGg-uR-Yvy"/>
+                            <constraint firstItem="7Pf-gZ-YSi" firstAttribute="top" secondItem="YAQ-Di-PSn" secondAttribute="top" constant="20" id="Si5-ZN-JVc"/>
+                            <constraint firstItem="7Pf-gZ-YSi" firstAttribute="height" secondItem="XNy-Fc-a6s" secondAttribute="height" multiplier="1/2" id="b0C-a1-ahv"/>
+                            <constraint firstItem="YlP-Hs-fDA" firstAttribute="centerX" secondItem="YAQ-Di-PSn" secondAttribute="centerX" id="oQg-G3-oa6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YAQ-Di-PSn"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Third" image="3" id="7A1-IZ-hVA"/>
+                    <connections>
+                        <outlet property="yellowLabel" destination="7Pf-gZ-YSi" id="5fG-g0-fgp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DPP-Ad-FEt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953.62318840579712" y="-28.125"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="79z-yZ-349">
+            <objects>
+                <viewController title="Second" id="eCQ-AI-LId" customClass="SecondViewController" customModule="LifeCycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VGF-cF-o9f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OFe-qF-AeY">
+                                <rect key="frame" x="20" y="64" width="374" height="448"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SecondViewController" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wf-px-OlQ">
+                                <rect key="frame" x="67.666666666666686" y="542" width="279" height="36"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.49803921568627452" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DTb-jA-hFD" firstAttribute="trailing" secondItem="OFe-qF-AeY" secondAttribute="trailing" constant="20" id="Onx-q3-DRG"/>
+                            <constraint firstItem="OFe-qF-AeY" firstAttribute="top" secondItem="DTb-jA-hFD" secondAttribute="top" constant="20" id="aW3-Ay-akm"/>
+                            <constraint firstItem="OFe-qF-AeY" firstAttribute="height" secondItem="VGF-cF-o9f" secondAttribute="height" multiplier="1/2" id="kTq-Vv-u0y"/>
+                            <constraint firstItem="OFe-qF-AeY" firstAttribute="leading" secondItem="DTb-jA-hFD" secondAttribute="leading" constant="20" id="ne4-7N-mYi"/>
+                            <constraint firstItem="6wf-px-OlQ" firstAttribute="centerX" secondItem="DTb-jA-hFD" secondAttribute="centerX" id="srb-ul-41f"/>
+                            <constraint firstItem="6wf-px-OlQ" firstAttribute="top" secondItem="OFe-qF-AeY" secondAttribute="bottom" constant="30" id="wy4-gL-uA1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DTb-jA-hFD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="2" id="IOI-6E-sxD"/>
+                    <connections>
+                        <outlet property="blueLabel" destination="OFe-qF-AeY" id="woj-j9-TO6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xT1-sP-LtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="-28.125"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="B1C-Za-MLG">
+            <objects>
+                <tabBarController id="cnz-we-JWG" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="07g-Nh-rbK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Plj-Vt-GMh"/>
+                        <segue destination="eCQ-AI-LId" kind="relationship" relationship="viewControllers" id="20p-iD-l45"/>
+                        <segue destination="U0S-6Y-qzi" kind="relationship" relationship="viewControllers" id="WLR-oW-SuW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXK-2v-k9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="-752"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="25" height="25"/>
+        <image name="2" width="25" height="25"/>
+        <image name="3" width="25" height="25"/>
+    </resources>
+</document>
