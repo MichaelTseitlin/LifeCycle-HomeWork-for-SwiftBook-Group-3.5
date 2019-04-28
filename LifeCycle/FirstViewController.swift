@@ -10,31 +10,31 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
-    @IBOutlet var greenLabel: UITextView!
+    @IBOutlet var firstTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Helper.shared.printMessage(textView: greenLabel, viewController: self)
+        Helper.shared.printMessage(textView: firstTextView, viewController: self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        Helper.shared.printMessage(textView: greenLabel, viewController: self)
+        Helper.shared.printMessage(textView: firstTextView, viewController: self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        Helper.shared.printMessage(textView: greenLabel, viewController: self)
+        Helper.shared.printMessage(textView: firstTextView, viewController: self)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        Helper.shared.printMessage(textView: greenLabel, viewController: self)
+        Helper.shared.printMessage(textView: firstTextView, viewController: self)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        Helper.shared.printMessage(textView: greenLabel, viewController: self)
+        Helper.shared.printMessage(textView: firstTextView, viewController: self)
     }
 }
 

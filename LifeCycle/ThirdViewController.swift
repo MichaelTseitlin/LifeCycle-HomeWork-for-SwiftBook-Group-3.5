@@ -10,31 +10,31 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     
-    @IBOutlet var yellowLabel: UITextView!
+    @IBOutlet var thirdTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Helper.shared.printMessage(textView: yellowLabel ,viewController: self)
+        Helper.shared.printMessage(textView: thirdTextView ,viewController: self)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        Helper.shared.printMessage(textView: yellowLabel ,viewController: self)
+        Helper.shared.printMessage(textView: thirdTextView ,viewController: self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        Helper.shared.printMessage(textView: yellowLabel ,viewController: self)
+        Helper.shared.printMessage(textView: thirdTextView ,viewController: self)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        Helper.shared.printMessage(textView: yellowLabel ,viewController: self)
+        Helper.shared.printMessage(textView: thirdTextView ,viewController: self)
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        Helper.shared.printMessage(textView: yellowLabel ,viewController: self)
+        Helper.shared.printMessage(textView: thirdTextView ,viewController: self)
     }
     
 }
